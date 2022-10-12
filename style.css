@@ -30,8 +30,8 @@ footer {
 }
  #grid-container {
  	display: grid;
- 	grid-template-rows: repeat(var(--grid-rows), minmax(5px, 1fr));
- 	grid-template-columns: repeat(var(--grid-cols), minmax(5px, 1fr));
+ 	grid-template-rows: repeat(var(--grid-rows), minmax(4px, 1fr));
+ 	grid-template-columns: repeat(var(--grid-cols), minmax(4px, 1fr));
  	height: 50%;
  	border: 2px solid red;
  }
@@ -39,4 +39,8 @@ footer {
 .grid-item {
 	border: 1px solid blue;
 	text-align: center;
+}
+
+.permahover {
+	background: red;
 }
